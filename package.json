@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve ./example/boot.js --open --mode local",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -12,13 +12,27 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.11.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/pro-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "@fortawesome/pro-duotone-svg-icons": "^5.11.2",
+    "@fortawesome/pro-light-svg-icons": "^5.11.2",
+    "@fortawesome/pro-regular-svg-icons": "^5.11.2",
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "tailwindcss": "^1.1.2",
+    "vue-carousel": "^0.18.0",
+    "less": "^3.10.2",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.15",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
   },
   "eslintConfig": {
     "root": true,
